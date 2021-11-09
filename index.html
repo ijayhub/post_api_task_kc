@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>post-api</title>
+</head>
+<body class=" bg-light" >
+    <div class="container">
+        <div class="mt-5">
+            <div class="post-creation-section ">
+                <div class="row">
+                    
+                    <div class="col-md-6">
+                        <h1 class="my-5 text-center text-primary">Create a Post</h1>
+                        <form action="#" id="post-form" class="mx-5">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Post Title</label>
+                                <input type="text" class="form-control" id="post-title"
+                                placeholder="put a title post">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Post Body</label>
+                                <textarea class="form-control" id="post-body" rows="3"></textarea>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <button type="submit" class="btn btn-primary mb-3">Post</button>
+                            </div>
+                        </form>
+                        
+                    </div>
+                    <div class="col-md-6 d-none d-md-block">
+                        <img src="img/post-img.jpg" alt="" class="img-fluid ">
+                    </div>
+                    
+                        
+                            
+                        
+                        
+                    
+                </div>
+                
+            </div>
+            <div class="posts-display">
+                <div class="mt-5">
+                    <div class="posts-box">
+                        <div class="row" id="post-layout">
+                            <h3 class="my-3 text-primary">ALL POSTS</h3>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="post-id d-flex justify-content-end text-primary">
+                                            <h5>5</h5>
+                                        </div>
+                                        <h5 class="post-title mb-4">lorem ipsum</h5>
+                                        <p class="post-body">Lorem ipsum dolor sit amet 
+                                            consectetur adipisicing elit. Unde quis nihil praesentium harum, minima blanditiis sit repellendus a dolor. Ea recusandae laboriosam ullam repudiandae modi.
+                                            Autem doloremque ratione dignissimos praesentium.</p>
+                                        <!-- <div class =" d-flex justify-content-end mb-4">
+                                            <button class="post-btn btn btn-outline-danger ">delete post</button>
+                                        </div> -->
+                                        <div class ="d-flex justify-content-end">
+                                            <button class="post-btn btn btn-outline-warning ">update post</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="post-id d-flex justify-content-end text-primary">
+                                            <h5>5</h5>
+                                        </div>
+                                        <h5 class="post-title mb-4">lorem ipsum</h5>
+                                        <p class="post-body">Lorem ipsum dolor sit amet 
+                                            consectetur adipisicing elit. Unde quis nihil praesentium harum, minima blanditiis sit repellendus a dolor. Ea recusandae laboriosam ullam repudiandae modi.
+                                            Autem doloremque ratione dignissimos praesentium.</p>
+                                        <!-- <div class =" d-flex justify-content-end mb-4">
+                                            <button class="post-btn btn btn-outline-danger ">delete post</button>
+                                        </div> -->
+                                        <div class ="d-flex justify-content-end">
+                                            <button class="post-btn btn btn-outline-warning ">update post</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="post-id d-flex justify-content-end text-primary">
+                                            <h5>5</h5>
+                                        </div>
+                                        <h5 class="post-title mb-4">lorem ipsum</h5>
+                                        <p class="post-body">Lorem ipsum dolor sit amet 
+                                            consectetur adipisicing elit. Unde quis nihil praesentium harum, minima blanditiis sit repellendus a dolor. Ea recusandae laboriosam ullam repudiandae modi.
+                                            Autem doloremque ratione dignissimos praesentium.</p>
+                                        <!-- <div class =" d-flex justify-content-end mb-4">
+                                            <button class="post-btn btn btn-outline-danger ">delete post</button>
+                                        </div> -->
+                                        <div class ="d-flex justify-content-end">
+                                            <button class="post-btn btn btn-outline-warning ">update post</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+             
+        </div>
+        
+        
+    </div>
+    <script src="asset/app.js"></script>
+</body>
+</html>
