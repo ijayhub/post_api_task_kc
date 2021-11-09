@@ -30,7 +30,7 @@ function getPosts() {
                             <button class="post-btn btn btn-outline-warning">update post</button>
                         </div>
                         <div class ="d-flex justify-content-end ">
-                         <a href="/display.html?id=${el.id}"target="_blank"><button class="post-btn btn btn-outline-primary">click post</button></a>
+                         <a href="display.html?id=${el.id}"target="_blank"><button class="post-btn btn btn-outline-primary">click post</button></a>
                         </div>
                         
                         
@@ -90,7 +90,7 @@ function createPost(e) {
                         <button class="post-btn btn btn-outline-warning" onClick="updatePost(${el.id})">update post</button>
                         </div>
                         <div class ="d-flex justify-content-end">
-                         <a href="/display.html ?id=${el.id}" target="_blank"><button class="post-btn btn btn-outline-primary">click post</button></a>
+                         <a href="display.html ?id=${el.id}" target="_blank"><button class="post-btn btn btn-outline-primary">click post</button></a>
                         </div>
                     </div>
                 </div>
@@ -100,7 +100,7 @@ function createPost(e) {
         postLayout.innerHTML = html;
        });
       
-      alert('post created sucessfully')
+      alert('post created successful')
     })
      
     

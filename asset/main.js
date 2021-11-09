@@ -17,7 +17,7 @@ const renderDisplay = async () => {
                     </div>
                     
                     <div class="d-flex justify-content-start ">
-                    <a href="/index.html" class="text-decoration-none fw-bolder ">Go back</a>
+                    <a href="index.html" class="text-decoration-none fw-bolder ">Go back</a>
                     </div>
                     
                 </div>
